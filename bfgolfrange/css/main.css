@@ -1,0 +1,428 @@
+/*This CSS is for the navigation bar and footer*/
+
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height:100%;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+
+/*Nav Bar CSS*/
+.navbar .name {
+  vertical-align:middle;
+  position:relative;
+}
+
+.links ul {
+  margin:0;
+  vertical-align:middle;
+  position:relative;
+  padding:0;
+}
+
+@media (min-width:1070px){
+  .navbar .container {
+    width:100%;
+  }
+  .navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 1);
+    font-family:'avenir', sans-serif;
+    overflow:hidden;
+    width:100%;
+    z-index: 2000;
+    top:0;
+  }
+  .navbar .name {
+    position: relative;
+    cursor:pointer;
+    height:100%;
+    vertical-align:middle;
+    display:inline-block;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    transition: all .2s ease-in-out;
+  }
+  .navbar .name a {
+    transition: all .2s ease-in-out;
+  }
+  .navbar .name img {
+    width:230px;
+    height:auto;
+    margin-left:40px;
+    position:relative;
+    float:left;
+  }
+  .links ul > li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align:middle;
+    height:100%;
+    position:relative;
+    padding:0;
+    margin-left:110px;
+    color:#2B2B2B;
+    font-size:16px;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  .navbar .links {
+    position: relative;
+    cursor:pointer;
+    height: 100%;
+    vertical-align: middle;
+    text-align:center;
+    display: inline-block;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+  }
+}
+
+@media (min-width:670px) and (max-width:1069px) {
+  .container {
+    width:100%;
+  }
+  .navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 1);
+    font-family:'avenir', sans-serif;
+    overflow:hidden;
+    width:100%;
+    z-index: 2000;
+    top:0;
+  }
+  .navbar .name {
+    position: relative;
+    cursor:pointer;
+    height:100%;
+    vertical-align:middle;
+    display:inline-block;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    transition: all .2s ease-in-out;
+  }
+  .navbar .name a {
+    transition: all .2s ease-in-out;
+  }
+  .navbar .name img {
+    width:230px;
+    height:auto;
+    margin-left:40px;
+    position:relative;
+    float:left;
+  }
+  .links ul > li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align:middle;
+    height:100%;
+    position:relative;
+    padding:0;
+    margin-left:40px;
+    color:#2B2B2B;
+    font-size:16px;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  .navbar .links {
+    position: relative;
+    cursor:pointer;
+    height: 100%;
+    vertical-align: middle;
+    text-align:center;
+    display: inline-block;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+  }
+}
+
+@media (max-width:669px){
+  .navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 1);
+    font-family:'avenir', sans-serif;
+    overflow:hidden;
+    width:100%;
+    z-index: 2000;
+    top:0;
+  }
+  .navbar .name {
+    position: relative;
+    cursor:pointer;
+    height:100%;
+    vertical-align:middle;
+    display:inline-block;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    transition: all .2s ease-in-out;
+  }
+  .navbar .name a {
+    transition: all .2s ease-in-out;
+  }
+  .navbar .name img {
+    width:230px;
+    height:auto;
+    margin-left:40px;
+    position:relative;
+    float:left;
+  }
+  .links ul > li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align:middle;
+    height:100%;
+    position:relative;
+    padding:0;
+    margin-left:40px;
+    color:#2B2B2B;
+    font-size:16px;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  .navbar .links {
+    position: relative;
+    cursor:pointer;
+    height: 100%;
+    vertical-align: middle;
+    text-align:center;
+    display: inline-block;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+  }
+}
+
+.navbar li a{
+  color:#2B2B2B;
+  font-weight:700;
+  text-decoration:none;
+  font-family: 'avenir', sans-serif;
+  cursor:pointer;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.navbar li a:hover {
+  border-bottom: 5px solid #D9D6C9;
+}
+
+.navbar .name a:hover {
+  opacity:0.6;
+}
+/*End Nav Bar CSS*/
+
+
+/*Footer CSS*/
+.footer {
+  display: block;
+  bottom:0;
+  padding: 0.05rem;
+  background-color: #5B7E72;
+  overflow:hidden;
+  width:100%;
+  z-index: 2000;
+  box-shadow: 0 -1px 2px rgba(0,0,0,.08);
+  margin-top:40px;
+}
+
+.copyright-info {
+  width: auto;
+  float: left;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.copyright-info p {
+  color:#ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 14px;
+  font-family: "avenir",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  cursor:default;
+}
+
+.connect {
+  width: auto;
+  height:100%;
+  float: right;
+  text-align: center;
+  margin-right:40px;
+  margin-left:40px;
+  display:inline-block;
+}
+
+.connect ul {
+  text-align: left;
+  list-style: none;
+}
+
+.connect li {
+  display: inline-block;
+  margin-left:40px;
+  vertical-align: middle;
+}
+
+.connect a {
+  text-decoration: none;
+  color: #141414;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+.connect li i {
+  background-color: #FFFFFF;
+  border-radius:100px;
+  padding: 7px;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+}
+
+.connect li i:hover {
+  background: #AAB1AD;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.connect li p {
+  display:inline-block;
+  color: #FFFFFF;
+  font-family: "avenir", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size:14px;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+}
+
+.connect li p:hover {
+  color:#000000;
+}
+
+.connect .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width:1120px) {
+  .connect {
+    width: auto;
+    float: right;
+    margin:0;
+    padding:0;
+    text-align: center;
+  }
+  .connect ul {
+    padding:0;
+  }
+  .copyright-info {
+    width: auto;
+    margin-left:auto;
+    float: left;
+  }
+  .copyright-info p {
+    width: 100%;
+    margin-top:20px;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    padding:0;
+    float: none;
+  }
+}
+
+@media (max-width:535px) {
+  .connect {
+    width: auto;
+    float: left;
+    margin-left:20%;
+    padding:0;
+    text-align: center;
+  }
+
+/*End footer CSS*/
+
+@media (min-width:1071px) {
+  .container {
+    margin: 0 auto;
+    width:80%;
+  }
+  .footer .container {
+    margin: 0 auto;
+    width:65%;
+  }
+}
+
+@media (max-width:1070px) {
+  .container {
+    margin: 0 auto;
+    width:90%;
+  }
+  .footer .container {
+    width:85%;
+  }
+}
+
+/* Medium and small screens (640px) */
+@media (max-width: 640px) {
+  html {
+    font-size: 100%;
+  }
+
+  .container {
+    margin: 0 auto;
+    width:90%;
+  }
+
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right:1rem;
+  }
+  .column.full { width:100%;}
+  .column.two-thirds {width:66.7%;}
+  .column.half {width:50%;}
+  .column.third {width:33.3%;}
+  .column.fouth {width:25%;}
+  .column.flow-opposite {float:right;}
+}
+
+/* Large screens (1024px) */
+@media (min-width: 1024px) {
+  html {
+    font-size: 110%;
+  }
+}
