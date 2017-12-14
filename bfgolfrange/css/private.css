@@ -1,0 +1,126 @@
+/*HERO STLYING*/
+.hero-content {
+  position: relative;
+  display:block;
+  height:auto;
+  padding-bottom:0;
+  margin-bottom:0;
+  z-index:0;
+  padding-top: 200px;
+  margin-bottom:80px;
+}
+
+.rectangle {
+  background-color:#F4F3EE;
+  width:100%;
+  height:114px;
+  position:relative;
+}
+
+.hero-content h2 {
+  font-family:'Libre Baskerville', serif;
+  font-weight:300;
+  font-size:22px;
+  color:#2B2B2B;
+  float:center;
+  text-align:center;
+  position:relative;
+  vertical-align: middle;
+}
+
+/*INFORMATIONAL SECTION STLYING*/
+.boxed-in {
+  box-shadow: 0px 1.5px 7px rgba(212, 210, 203, 1);
+  margin-left:40px;
+  margin-right:40px;
+  background-color:#FFFFFF;
+  position:relative;
+  height:auto;
+  overflow:hidden;
+  padding:0;
+}
+
+.informational .informational-text {
+  position:relative;
+  margin:0px 40px 0px 40px;
+}
+
+.informational .intro-text {
+  font-family:'Avenir', sans-serif;
+  font-size:18px;
+  color:#2B2B2B;
+  font-weight:300;
+  padding-top:40px;
+  letter-spacing: .4px;
+  line-height:31px;
+  text-align:center;
+  padding-bottom:20px;
+}
+
+hr.style1 {
+  width: 100%;
+  height: 1px;
+  background-color:#FF0000;
+  color:#FF0000;
+  border: 0 none;
+  margin-top: 10px;
+  margin-bottom:10px;
+  float: center;
+}
+
+.informational .info-header {
+  position:relative;
+  font-family:'Avenir', sans-serif;
+  font-size:20px;
+  font-weight:700;
+  padding-bottom:6px;
+  text-align:center;
+  text-transform:uppercase;
+  color:#2B2B2B;
+  padding-top:20px;
+  margin-bottom:0px;
+}
+
+.informational .info-text {
+  font-family:'Avenir', sans-serif;
+  font-size:18px;
+  color:#2B2B2B;
+  font-weight:300;
+  letter-spacing: .4px;
+  line-height:31px;
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.informational-text a {
+  text-decoration: none;
+  color: #141414;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+.informational-text i {
+  background-color: #FFFFFF;
+  border-radius:100px;
+  padding: 7px;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+  text-align:center;
+  float:center;
+  position:relative;
+  display:block;
+  width:auto;
+  padding-right:0px;
+  padding-left:0px;
+  margin-bottom:40px;
+}
+
+.informational-text i:hover {
+  background: #AAB1AD;
+  text-decoration: none;
+}
