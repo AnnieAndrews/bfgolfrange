@@ -317,6 +317,7 @@ body {
   font-style: normal;
   font-weight: 200;
   font-size:14px;
+  cursor:default;
   transition: color .25s ease-in-out;
   -moz-transition: color .25s ease-in-out;
   -webkit-transition: color .25s ease-in-out;

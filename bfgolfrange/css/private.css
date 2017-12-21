@@ -1,13 +1,23 @@
 /*HERO STLYING*/
 .hero-content {
-  position: relative;
   display:block;
-  height:auto;
+  min-height: 520px;
+  background-image: url(../images/private_back.jpg);
+  background-position:bottom;
+  background-size:cover;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   padding-bottom:0;
   margin-bottom:0;
   z-index:0;
-  padding-top: 200px;
-  margin-bottom:80px;
+  text-align:center;
+  top:0;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .rectangle {
@@ -18,20 +28,43 @@
 }
 
 .hero-content h2 {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 300;
-  font-size: 22px;
-  color: #2B2B2B;
-  float: left;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.hero-content h3 {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
   text-align: center;
   position: relative;
   vertical-align: middle;
   height: auto;
-  width: 100%;
-  top: 23%;
+  width: auto;
+  margin:0;
+  text-decoration:none;
+  cursor:default;
+  display:inline-block;
+  width:500px;
+  margin-top:220px;
 }
 
 /*INFORMATIONAL SECTION STLYING*/
+.informational {
+  z-index:1500;
+  top:-40px;
+  position:relative;
+}
+
 .boxed-in {
   box-shadow: 0px 1.5px 7px rgba(212, 210, 203, 1);
   margin-left:40px;
@@ -93,6 +126,22 @@ hr.style1 {
   line-height:31px;
   text-align:center;
   padding-bottom:10px;
+  cursor:default;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+}
+
+.informational .info-text:hover {
+  font-family:'Avenir', sans-serif;
+  font-size:18px;
+  color:#FF0000;
+  font-weight:300;
+  letter-spacing: .4px;
+  line-height:31px;
+  text-align:center;
+  padding-bottom:10px;
+  cursor:default;
 }
 
 .informational-text a {
@@ -104,26 +153,4 @@ hr.style1 {
   font: inherit;
   font-size: 100%;
   vertical-align: middle;
-}
-
-.informational-text i {
-  background-color: #FFFFFF;
-  border-radius:100px;
-  padding: 7px;
-  transition: color .25s ease-in-out;
-  -moz-transition: color .25s ease-in-out;
-  -webkit-transition: color .25s ease-in-out;
-  text-align:center;
-  float:center;
-  position:relative;
-  display:block;
-  width:auto;
-  padding-right:0px;
-  padding-left:0px;
-  margin-bottom:40px;
-}
-
-.informational-text i:hover {
-  background: #AAB1AD;
-  text-decoration: none;
 }

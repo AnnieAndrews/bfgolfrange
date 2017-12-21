@@ -3,7 +3,7 @@
 .hero-content {
   display:block;
   min-height: 700px;
-  background-image: url(../images/home_back.jpg);
+  background-image: url(../images/home_back.png);
   background-repeat: no-repeat;
   background-position:bottom;
   background-size:cover;
