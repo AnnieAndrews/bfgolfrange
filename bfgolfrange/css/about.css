@@ -1,13 +1,19 @@
 /*HERO STLYING*/
 .hero-content {
-  position: relative;
-  height: auto;
-  min-height:500px;
+  display:block;
+  min-height: 790px;
+  background-image: url(../images/about_back.png);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size:auto 100%;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   padding-bottom:0;
-  margin-bottom:40px;
+  margin-bottom:0;
   z-index:0;
-  padding-top: 200px;
-  margin-bottom:80px;
+  text-align:center;
 }
 
 .rectangle {
@@ -18,27 +24,44 @@
 }
 
 .hero-content h2 {
-  font-family:'Libre Baskerville', serif;
-  font-weight:300;
-  font-size:22px;
-  color:#2B2B2B;
-  float:left;
-  text-align:left;
-  position:relative;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #5B7E72;
+  text-align: center;
+  position: relative;
   vertical-align: middle;
-  margin-left:40px;
+  width: auto;
+  margin-top:0;
+  margin-bottom:0;
 }
 
-.hero-content img {
-  float:right;
-  position:relative;
-  height:auto;
-  width:495px;
-  margin-right:100px;
+.hero-content h3 {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #5B7E72;
+  text-align: center;
+  position: relative;
   vertical-align: middle;
+  height: auto;
+  width: auto;
+  margin:0;
+  text-decoration:none;
+  cursor:default;
+  display:inline-block;
+  width:500px;
+  margin-top:300px;
 }
 
 /*INFORMATIONAL STLYING*/
+.informational {
+  z-index:1500;
+  top:-40px;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .boxed-in {
   box-shadow: 0px 1.5px 7px rgba(212, 210, 203, 1);
   margin-left:40px;
@@ -60,6 +83,7 @@
   text-transform:uppercase;
   padding-top:40px;
   letter-spacing: .4px;
+  text-align: left;
 }
 
 hr.style1 {

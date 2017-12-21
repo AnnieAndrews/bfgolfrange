@@ -18,14 +18,17 @@
 }
 
 .hero-content h2 {
-  font-family:'Libre Baskerville', serif;
-  font-weight:300;
-  font-size:22px;
-  color:#2B2B2B;
-  float:center;
-  text-align:center;
-  position:relative;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: #2B2B2B;
+  float: left;
+  text-align: center;
+  position: relative;
   vertical-align: middle;
+  height: auto;
+  width: 100%;
+  top: 23%;
 }
 
 /*INFORMATIONAL SECTION STLYING*/
